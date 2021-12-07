@@ -1,4 +1,4 @@
-package _08_While_DoWhile;
+package _07_While_DoWhile;
 
 import java.util.Scanner;
 

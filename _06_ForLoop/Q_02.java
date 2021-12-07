@@ -1,5 +1,5 @@
 
-package _07_ForLoop;
+package _06_ForLoop;
 
 public class Q_02 {
 

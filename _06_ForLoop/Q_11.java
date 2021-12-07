@@ -1,4 +1,4 @@
-package _07_ForLoop;
+package _06_ForLoop;
 
 import java.util.Scanner;
 
@@ -22,19 +22,21 @@ public class Q_11 {
         */
 		Scanner scan = new Scanner(System.in);
         System.out.println("Bir sayi giriniz");
-        int sayi= scan.nextInt();
+        int sayi=scan.nextInt();
         int toplam=0;
-        boolean flag=false;
        
-        for (int i = 0; i < sayi; i++) {
+        scan.close();
+        for (int i = 1; i < sayi; i++) {
         	if (sayi%i==0) {
-				toplam+=i;
-        		
-			} 
-			if (sayi==toplam) {
-				flag= true;
-			} System.out.println("mukemmel sayidir");
+        		toplam+=i;
 			}
+			}
+        if (toplam==sayi) {
+				System.out.println("girdiginiz sayi mukemmel sayidir");
+			} else {
+				System.out.println("girdiginiz sayi mukemmel sayi degildir");
+		}
+        
 		}
        
 	}
