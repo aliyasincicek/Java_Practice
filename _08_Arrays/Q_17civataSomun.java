@@ -2,6 +2,7 @@ package _08_Arrays;
 
 import java.util.Arrays;
 
+@SuppressWarnings("unused")
 public class Q_17civataSomun {
 
 	public static void main(String[] args) {

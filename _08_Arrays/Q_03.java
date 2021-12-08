@@ -16,7 +16,7 @@ public class Q_03 {
 	}
 
 	public static int[] sayininTersi(int[] arr) {
-
+	
         for (int i = 0; i < arr.length; i++) {
             arr[i] *= -1;
 
