@@ -1,4 +1,4 @@
-package _06_methodCreation;
+package _05_methodCreation;
 
 import java.util.Scanner;
 

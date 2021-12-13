@@ -1,9 +1,10 @@
-package _05_stringManipulations;
+package _04_stringManipulations;
 
 import java.util.Locale;
 
 public class A_StringMethods {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		 /** indexOf()
          * char karakter ya da String metnin kacinci indexden basladigini veren bir method dur. Sonuc integer dir.
@@ -212,7 +213,8 @@ public class A_StringMethods {
 
         String str3 = " ";
         System.out.println("str3 içi boþ mu = " + str3.isEmpty());  //false
-        boolean bosMu = str3.isEmpty(); // boolean deðiþkenine atanabilir.
+        @SuppressWarnings("unused")
+		boolean bosMu = str3.isEmpty(); // boolean deðiþkenine atanabilir.
 
         /**
          * str.toLowerCase() verilen String'in tamamini kucuk harfe cevirir

@@ -1,4 +1,4 @@
-package _05_stringManipulations;
+package _04_stringManipulations;
 
 import java.util.Scanner;
 

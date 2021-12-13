@@ -27,6 +27,7 @@ Output :Girilen Numananin Tersi: 8321
         	i--;
 		}
         System.out.println("Girilen sayinin tersi :"+cont);
+        scan.close();
 	}
 
 }
